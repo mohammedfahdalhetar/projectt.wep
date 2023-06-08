@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/belion.jpg");
+    /* background-color:rgb(2, 12, 97) ; */
+    background-size: cover;
+    
+}
+
+h1 {
+    position: absolute;
+    color: wheat;
+    left: 37%;
+}
+
+.all {
+    margin: auto;
+    position: absolute;
+    background-color: rgb(14, 96, 250,50%);
+    opacity: 100%;
+    width: 350px;
+    height: 450px;
+    right: 40%;
+    top: 113px;
+    border: solid;
+    border-radius: 30px;
+    border-color: cornsilk #0b0c0b;
+    animation: aymen 3s ease-in-out infinite;
+}
+
+@keyframes aymen {
+    0% {
+        border-color: cornsilk yellow red green;
+    }
+    25% {
+        border-color: green cornsilk yellow red;
+    }
+    50% {
+        border-color: red green cornsilk yellow;
+    }
+    75% {
+        border-color: yellow red green cornsilk;
+    }
+    100% {
+        border-color: cornsilk yellow red green;
+    }
+}
+
+img {
+    
+    position: absolute;
+    width: 67px;
+    height: 61px;
+    left: 37%;
+    top: -30px;
+    border-radius: 25px;
+    border: solid 2px white;
+}
+
+.all input, label {
+    
+    left: 30%;
+    position: relative;
+height: 30px;
+    border-radius: 15px;
+    background-color: #f3f0f7;
+    color: rgb(0, 0, 0);
+    margin: 20px 0px;
+    box-shadow: 0px 5px 5px rebeccapurple;
+    top: 40px;
+}
+
+.sub1 input {
+    color: white;
+    background-color: #0d0acb;
+    position: absolute;
+    bottom: 240px;
+    left: 40%;
+    width: 175px;
+    height: 30px;
+    box-shadow: 0px 5px 5px #02091a;
+    border-radius: 15px;
+}
+
+a{
+    margin: auto;
+    font-size: large;
+    color: rgb(253, 253, 255);
+    position: absolute;
+    bottom: 30px;
+    right: 85px;
+    /* width: 30px; */
+    /* box-shadow: 0px 5px 5px #02091a; */
+    /* border-radius: 15px; */
+}

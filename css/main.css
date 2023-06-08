@@ -1,0 +1,82 @@
+body{   
+    /* background-color: rgb(182, 152, 117); */
+   
+    background-image: url("../img/belion.jpg");
+    display: flex;
+    justify-content: center;
+}
+.container{
+background-color: rgb(14, 96, 250,50%);
+width: 900px;
+height: 550px;
+padding: 20px;
+position: relative;
+
+
+}
+.user ,.admin{
+    /* background-color: white; */
+    border-radius:10px ;
+    width: 400px;
+    height: 500px;
+    margin: 25px 10px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    /* font-size: 50px; */
+    font-size: large;
+    display: flex;
+    justify-content: center;
+
+}
+.user{
+    left: 20px;
+}
+.admin{
+    right: 20px;
+}
+
+img{
+    height: 300px;
+    background-color: black;
+    width: 300px;
+    border-radius: 50%;
+
+    } 
+
+    .login{
+        position: absolute;
+        top: 342px;
+        direction: rtl;
+        height: 120px;
+        font-size: 15px;
+        right: 50px;
+      
+
+    }
+    .login #note{
+         color: rgb(251, 255, 0);   
+    }
+    button{
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        right: 100px;
+        bottom: 0;
+        background-color: rgb(14, 96, 250);
+        color: black;
+        font-size: 20px;
+        border-radius:20px ;
+        cursor: pointer;
+    }
+
+    .disc{
+position: absolute;
+width: auto;
+height: 40px;
+bottom: -150px;
+background-color: rgb(14, 96, 250,50%);
+color: rgb(255, 255, 255);
+font-size: 30px;
+   text-align: center;
+  
+    }

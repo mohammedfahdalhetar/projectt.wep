@@ -1,0 +1,120 @@
+body {
+    background-image: url('../img/belion.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+.help {
+    width: 70%;
+    height: 40px;
+
+}
+
+.help .helping {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 45%;
+    border: solid 2px blue;
+    width: 13%;
+    height: 35px;
+    margin: 1%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.money {
+    background-color: rgb(14, 96, 250,50%);
+
+    width: auto;
+    height: 85%;
+    position: absolute;
+    right: 3%;
+    bottom: 120px;
+
+}
+
+.money .mo {
+    height: auto;
+    width: auto;
+    display: block;
+    border-radius: 25%;
+    border: solid 3px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin: 7px 0;
+}
+
+
+.all {
+    position: relative;
+
+    width: auto;
+    height: auto;
+
+    padding: 1px;
+
+    /* color: #fff; */
+    background-color: red;
+
+
+
+}
+
+.question {
+    width: 70%;
+    height: 50px;
+    background-color: rgb(14, 96, 250,50%);
+    margin: 10px 0;
+    position: absolute;
+    bottom: 170px;
+    left: 36px;
+    border-radius: 20px;
+    border: solid 2px gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+.ans {
+    width: 70%;
+    height: 120px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    bottom: 35px;
+    color: rgb(255, 255, 255);
+    left: 35px;
+
+}
+
+.ans .answer {
+    background-color: rgb(14, 96, 250,50%);
+    color: rgb(255, 255, 255);
+    margin: 5px 0;
+    width: 49%;
+    height: 50px;
+    display: inline-block;
+    border-radius: 20px;
+    border: solid 2px gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+/* hello_user */

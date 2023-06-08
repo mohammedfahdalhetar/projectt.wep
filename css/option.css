@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to bottom, #ffffff  0%, #77d9e0 100%);
+height: 1000px;
+  /* background-color: rgb(14, 96, 250,50%); */
+
+/* background-image:url("../../../../img/belion.jpg"); */
+  }
+  
+.blue-white tbody tr:nth-child(odd) {
+  background-color: rgb(123, 214, 230);
+  color: white;
+}
+.blue-white tbody tr:nth-child(even) {
+  background-color: white;
+  color: black;
+}
+.button,#back{
+width: auto;
+  height: auto;
+  background-color: rgb(14, 96, 250,70%);
+  color:white;
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+  left: 27%;
+  font-size: 20px;
+  padding: 2px 30px;
+  border-radius: 5px;
+
+}
+
+form{
+display: none;
+margin:20px 0;
+}
+.choose{
+display: inline-block;
+margin: 0 25px;
+  position: relative;
+  left: -45%;
+  bottom: -50px;
+  margin:0 0 40px;
+}
+#go{
+  width: auto;
+    height: auto;
+    background-color: rgb(14, 96, 250,70%);
+    color:white;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+    left: 27%;
+    font-size: 20px;
+    padding: 2px 30px;
+    border-radius: 5px;
+}
+#exit{
+  width: auto;
+    height: auto;
+    background-color: rgb(14, 96, 250,70%);
+    color:white;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+    left: 27%;
+    font-size: 20px;
+    padding: 2px 30px;
+    border-radius: 5px;
+}
+.id{
+width:30px;
+height: 40px;
+
+}
+.question{
+width: 430px;
+height:40px;
+}
+.answer{
+width:120px;
+height: 40px;
+}
